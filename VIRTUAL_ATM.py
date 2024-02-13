@@ -112,7 +112,7 @@ while acc_nmbr == 1234:
         plt.xlabel("Months ( in a year )")
         plt.ylabel("Withdrawn amount ( in thousands )")
         pin = int(input('Enter your pin: '))
-        if pin == new_pin:
+        if pin == account_pin or new_pin :
 
             plt.bar(x,y, color = 'r', width = 0.5)
             plt.show()
@@ -235,7 +235,7 @@ while acc_nmbr == 4321:
         plt.xlabel("Months ( in a year )")
         plt.ylabel("Withdrawn amount ( in thousands )")
         pin = int(input('Enter you pin: '))
-        if pin == new_pin:
+        if pin == account_pin_2 or new_pin:
           
           plt.bar(x,y, color = 'b', width = 0.4)
           plt.show()
