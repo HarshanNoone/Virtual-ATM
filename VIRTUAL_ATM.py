@@ -253,5 +253,4 @@ while acc_nmbr == 4321:
 
     else:
         print('You have entered the number that is not in our range.')
-else:
-    print("We don't have this account details!")
+
